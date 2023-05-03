@@ -13,4 +13,5 @@ class LotoRaccoon:
         sequence.append(random.choice([x[3] for x in self.lottery_history]))
         sequence.append(random.choice([x[4] for x in self.lottery_history]))
         sequence.append(random.choice([x[5] for x in self.lottery_history]))
+        sequence.sort()
         return sequence
